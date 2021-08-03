@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+body {
+  background-color: $bg;
+}
+
+//header
+header {
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+
+  .navbar {
+    height: 80px;
+
+    ul.navbar-nav {
+      li.nav-item {
+        &.active {
+          a.nav-link {
+            color: #8743ff;
+          }
+        }
+
+        a {
+          &.nav-link {
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: $white;
+            padding-left: 1rem;
+            padding-right: 60px;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .btn {
+          font-size: 16px;
+          background: linear-gradient(90.07deg, #4136f1 0.06%, #8743ff 98.79%);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+//hero
+.container {
+  .row {
+    h1 {
+      margin: auto;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 161%;
+      text-align: center;
+      color: $white;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 300;
+      margin: auto;
+      text-align: center;
+      color: $white;
+    }
+
+    .btn {
+      margin: auto;
+      border-radius: 8px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background: linear-gradient(90.07deg, #4136f1 0.06%, #8743ff 98.79%);
+      font-weight: 500;
+
+      .img {
+        margin-left: 5px;
+      }
+    }
+  }
+}
