@@ -39,7 +39,11 @@
 @import "print";
 
 body {
-  background-color: $bg;
+  background: $bg;
+  background-image: url(../images/bg-blur.png);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 //header
@@ -115,6 +119,31 @@ header {
 
       .img {
         margin-left: 5px;
+      }
+    }
+  }
+
+  .bg {
+    height: 650px;
+    margin-top: 60px;
+    .row {
+      margin-top: 60px;
+      height: 550px;
+      margin-left: auto;
+
+      .ebm {
+        height: 60px;
+        width: 60px;
+        .emblem {
+          height: 60px;
+          width: 60px;
+        }
+      }
+
+      .mockup {
+        margin-left: -10px;
+        height: 650px;
+        width: 320px;
       }
     }
   }
