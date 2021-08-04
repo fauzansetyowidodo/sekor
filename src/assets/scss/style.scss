@@ -147,4 +147,22 @@ header {
       }
     }
   }
+
+  .row {
+    &.spont {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      p {
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 30px;
+      }
+      .spontsor {
+        margin: auto;
+
+        .logo {
+          margin-left: 50px;
+        }
+      }
+    }
+  }
 }

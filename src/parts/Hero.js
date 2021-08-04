@@ -15,6 +15,10 @@ import Emblem8 from "assets/images/emblem/emblem8.png";
 import Emblem9 from "assets/images/emblem/emblem9.png";
 import Emblem10 from "assets/images/emblem/emblem10.png";
 import Emblem11 from "assets/images/emblem/emblem11.png";
+import Fifa from "assets/images/fifa.png";
+import Espn from "assets/images/espn.png";
+import Bein from "assets/images/bein.png";
+import Olympic from "assets/images/olympic.png";
 
 export default function Hero() {
   return (
@@ -132,8 +136,44 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="row">
-        <p>Our Partnership</p>
+      <div className="row spont">
+        <p className="w-100">Our Partnership</p>
+        <div className="spontsor">
+          <div class="row ">
+            <div class="col-3">
+              <img
+                src={Fifa}
+                alt=""
+                className="logo"
+                style={{ width: 100, height: 30 }}
+              />
+            </div>
+            <div class="col-3">
+              <img
+                src={Espn}
+                alt=""
+                className="logo"
+                style={{ width: 130, height: 30 }}
+              />
+            </div>
+            <div class="col-3">
+              <img
+                src={Bein}
+                alt=""
+                className="logo"
+                style={{ width: 110, height: 50 }}
+              />
+            </div>
+            <div class="col-3">
+              <img
+                src={Olympic}
+                alt=""
+                className="logo"
+                style={{ width: 100, height: 40 }}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
