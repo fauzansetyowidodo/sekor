@@ -24,154 +24,136 @@ export default function Hero() {
   return (
     <section className="container">
       <div className="row">
-        <h1 className="line-height-1 mb-5">
-          When the going gets tough, <br />
-          the tough get football
-        </h1>
-        <p className="mb-5 w-100">Discover the football difference</p>
-        <Button className="btn" isPrimary type="link" href={`/download`}>
-          Download now <img className="img" src={Apple} alt="Icon Apple" />
-        </Button>
+        <div className="row col-sm-12">
+          <h1 className="line-height-1 mb-5">
+            When the going gets tough, <br />
+            the tough get football
+          </h1>
+        </div>
+        <div className="row col-sm-12">
+          <p className="mb-5">Discover the football difference</p>
+        </div>
+        <div className="row col-sm-12 mb-4">
+          <Button className="btn" isPrimary type="link" href={`/download`}>
+            Download now <img className="img" src={Apple} alt="Icon Apple" />
+          </Button>
+        </div>
       </div>
-      <div className="bg">
-        <div className="row">
-          <div className="row row-cols-1">
-            <div className="ebm">
-              <img
-                src={Emblem1}
-                alt="emblem1"
-                className="emblem float-left"
-                style={{ marginLeft: 80 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem2}
-                alt="emblem2"
-                className="emblem float-right "
-                style={{ marginRight: 30 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem3}
-                alt="emblem3"
-                className="emblem float-left "
-                style={{ marginLeft: 50 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem4}
-                alt="emblem4"
-                className="emblem float-right "
-                style={{ marginRight: 10 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem5}
-                alt="emblem5"
-                className="emblem float-left "
-                style={{ marginLeft: 80 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem6}
-                alt="emblem6"
-                className="emblem float-right "
-                style={{ marginRight: 70 }}
-              />
-            </div>
-          </div>
-          <div className="col ml-5">
+
+      <div className="row mock mt-5">
+        <div className="col-sm-4 left">
+          <div className="row justify-content-start">
             <img
-              src={Mockup}
-              alt="mck hero"
-              className="mockup position-absolute"
+              src={Emblem1}
+              alt="emblem1"
+              className="emblem"
+              style={{ paddingLeft: 80 }}
             />
           </div>
-          <div className="row row-cols-1">
-            <div className="ebm">
-              <img
-                src={Emblem7}
-                alt="emblem7"
-                className="emblem float-left"
-                style={{ marginLeft: -50 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem8}
-                alt="emblem8"
-                className="emblem float-right "
-                style={{ marginRight: 130 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem9}
-                alt="emblem9"
-                className="emblem float-left"
-                style={{ marginLeft: -70 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem10}
-                alt="emblem10"
-                className="emblem float-right "
-                style={{ marginRight: 100 }}
-              />
-            </div>
-            <div className="ebm">
-              <img
-                src={Emblem11}
-                alt="emblem11"
-                className="emblem float-left "
-                style={{ marginLeft: -80 }}
-              />
-            </div>
+          <div className="row justify-content-end">
+            <img
+              src={Emblem2}
+              alt="emblem2"
+              className="emblem"
+              style={{ paddingRight: 60 }}
+            />
+          </div>
+          <div className="row justify-content-start">
+            <img
+              src={Emblem3}
+              alt="emblem3"
+              className="emblem"
+              style={{ paddingLeft: 30 }}
+            />
+          </div>
+          <div className="row justify-content-end">
+            <img
+              src={Emblem4}
+              alt="emblem4"
+              className="emblem "
+              style={{ paddingRight: 30 }}
+            />
+          </div>
+          <div className="row justify-content-start">
+            <img
+              src={Emblem5}
+              alt="emblem5"
+              className="emblem"
+              style={{ paddingLeft: 60 }}
+            />
+          </div>
+          <div className="row justify-content-end">
+            <img
+              src={Emblem6}
+              alt="emblem6"
+              className="emblem"
+              style={{ paddingRight: 60 }}
+            />
+          </div>
+        </div>
+        <div className="col-sm-4">
+          <img src={Mockup} alt="mck hero" className="mockup img-fluid" />
+        </div>
+        <div className="col-sm-4 right">
+          <div className="row justify-content-start">
+            <img
+              src={Emblem7}
+              alt="emblem7"
+              className="emblem"
+              style={{ paddingLeft: 70 }}
+            />
+          </div>
+          <div className="row justify-content-end">
+            <img
+              src={Emblem8}
+              alt="emblem8"
+              className="emblem"
+              style={{ paddingRight: 110 }}
+            />
+          </div>
+          <div className="row justify-content-start">
+            <img
+              src={Emblem9}
+              alt="emblem9"
+              className="emblem"
+              style={{ paddingLeft: 50 }}
+            />
+          </div>
+          <div className="row justify-content-end">
+            <img
+              src={Emblem10}
+              alt="emblem10"
+              className="emblem"
+              style={{ paddingRight: 70 }}
+            />
+          </div>
+          <div className="row justify-content-start">
+            <img
+              src={Emblem11}
+              alt="emblem11"
+              className="emblem"
+              style={{ paddingLeft: 30 }}
+            />
           </div>
         </div>
       </div>
-      <div className="row spont">
-        <p className="w-100">Our Partnership</p>
-        <div className="spontsor">
-          <div class="row ">
-            <div class="col-3">
-              <img
-                src={Fifa}
-                alt=""
-                className="logo"
-                style={{ width: 100, height: 30 }}
-              />
-            </div>
-            <div class="col-3">
-              <img
-                src={Espn}
-                alt=""
-                className="logo"
-                style={{ width: 130, height: 30 }}
-              />
-            </div>
-            <div class="col-3">
-              <img
-                src={Bein}
-                alt=""
-                className="logo"
-                style={{ width: 110, height: 50 }}
-              />
-            </div>
-            <div class="col-3">
-              <img
-                src={Olympic}
-                alt=""
-                className="logo"
-                style={{ width: 100, height: 40 }}
-              />
-            </div>
+
+      <div className="row partner mb-5">
+        <div className="row col-sm-12">
+          <p>Our Partnership</p>
+        </div>
+        <div className="row logo m-auto">
+          <div class="col-sm-3">
+            <img src={Fifa} alt="fifa" className="logo1" />
+          </div>
+          <div class="col-sm-3">
+            <img src={Espn} alt="espn" className="logo1" />
+          </div>
+          <div class="col-sm-3">
+            <img src={Bein} alt="bein" className="logo2" />
+          </div>
+          <div class="col-sm-3">
+            <img src={Olympic} alt="olympic" className="logo2" />
           </div>
         </div>
       </div>

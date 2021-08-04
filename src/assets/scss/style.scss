@@ -123,45 +123,52 @@ header {
     }
   }
 
-  .bg {
+  .mock {
     height: 650px;
-    margin-top: 60px;
-    .row {
-      margin-top: 60px;
-      height: 550px;
-      margin-left: auto;
 
-      .ebm {
-        height: 60px;
-        width: 60px;
+    .left {
+      .row {
+        padding-top: 40px;
         .emblem {
           height: 60px;
-          width: 60px;
+          width: auto;
         }
       }
+    }
 
-      .mockup {
-        margin-left: -10px;
-        height: 650px;
-        width: 320px;
+    .right {
+      .row {
+        padding-top: 55px;
+        .emblem {
+          height: 60px;
+          width: auto;
+        }
       }
+    }
+
+    .mockup {
+      width: 330px;
     }
   }
 
-  .row {
-    &.spont {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      p {
-        color: rgba(255, 255, 255, 0.6);
-        margin-bottom: 30px;
+  .row.partner {
+    margin-top: 100px;
+    p {
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 40px;
+    }
+    .row.logo {
+      .logo1 {
+        margin-left: 40px;
+        margin-right: 50px;
+        height: 30px;
+        width: 100px;
       }
-      .spontsor {
-        margin: auto;
-
-        .logo {
-          margin-left: 50px;
-        }
+      .logo2 {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 40px;
+        width: 90px;
       }
     }
   }
