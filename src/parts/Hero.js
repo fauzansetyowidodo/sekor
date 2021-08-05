@@ -20,7 +20,14 @@ import Espn from "assets/images/espn.png";
 import Bein from "assets/images/bein.png";
 import Olympic from "assets/images/olympic.png";
 
-export default function Hero() {
+export default function Hero(props) {
+  function showDownload() {
+    window.scrollTo({
+      top: props.refDownload.current.offsetTop - 30,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <section className="container hero">
       <div className="row">
@@ -34,7 +41,7 @@ export default function Hero() {
           <p className="mb-5">Discover the football difference</p>
         </div>
         <div className="row col-sm-12 mb-4">
-          <Button className="btn" isPrimary type="link" href={`/download`}>
+          <Button className="btn" isPrimary type="link" onClick={showDownload}>
             Download now <img className="img" src={Apple} alt="Icon Apple" />
           </Button>
         </div>
