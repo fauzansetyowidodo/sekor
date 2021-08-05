@@ -22,7 +22,7 @@ import Olympic from "assets/images/olympic.png";
 
 export default function Hero() {
   return (
-    <section className="container">
+    <section className="container hero">
       <div className="row">
         <div className="row col-sm-12">
           <h1 className="line-height-1 mb-5">

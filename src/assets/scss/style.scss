@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import "container-grid";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
 
 @import "functions";
 @import "variables";
@@ -88,7 +89,7 @@ header {
 }
 
 //hero
-.container {
+.container.hero {
   .row {
     h1 {
       margin: auto;
@@ -170,6 +171,33 @@ header {
         height: 40px;
         width: 90px;
       }
+    }
+  }
+}
+
+//advantage
+.container.advan {
+  margin-top: 100px;
+  p {
+    font-weight: 300;
+    color: $white;
+    &.title {
+      color: #d479ff;
+    }
+  }
+  h1 {
+    font-weight: 600;
+    color: $white;
+  }
+
+  .container-grid.advan {
+    margin-top: 100px;
+    text-align: center;
+    .title {
+      color: $white;
+    }
+    .desc {
+      font-weight: 300;
     }
   }
 }

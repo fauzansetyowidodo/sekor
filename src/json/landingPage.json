@@ -1,0 +1,29 @@
+{
+  "advantage": [
+    {
+      "imageUrl": "/images/schedule.png",
+      "name": "Updated Schedule",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "imageUrl": "/images/news.png",
+      "name": "Latest News",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "imageUrl": "/images/live.png",
+      "name": "Live Score",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "imageUrl": "/images/notif.png",
+      "name": "Get to know with notif",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "imageUrl": "/images/leagues.png",
+      "name": "10+ Leagues",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    }
+  ]
+}
