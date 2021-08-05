@@ -47,6 +47,10 @@ body {
   background-repeat: no-repeat;
 }
 
+section {
+  margin-top: 100px;
+}
+
 //header
 header {
   width: 100%;
@@ -177,7 +181,7 @@ header {
 
 //advantage
 .container.advan {
-  margin-top: 100px;
+  margin-top: 200px;
   p {
     font-weight: 300;
     color: $white;
@@ -194,10 +198,39 @@ header {
     margin-top: 100px;
     text-align: center;
     .title {
+      margin-top: 20px;
       color: $white;
     }
     .desc {
+      margin-top: 20px;
       font-weight: 300;
+    }
+  }
+}
+
+.container.feature {
+  margin-top: 200px;
+
+  .tp {
+    margin-bottom: 100px;
+    width: 1110px;
+    height: 339px;
+    border-radius: 13px;
+    background: linear-gradient(90.07deg, #4136f1 0.06%, #8743ff 98.79%);
+
+    .lg {
+      height: 339px;
+    }
+    img {
+      width: 140px;
+    }
+
+    h1 {
+      font-size: 37px;
+      color: $white;
+    }
+    p {
+      color: $white;
     }
   }
 }
