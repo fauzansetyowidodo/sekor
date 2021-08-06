@@ -208,6 +208,7 @@ header {
 //banner section
 .container.banner {
   margin-top: 200px;
+  margin-bottom: 200px;
 
   .tp {
     margin-bottom: 100px;
@@ -235,10 +236,6 @@ header {
 
 //Feature
 .container.feature {
-  margin-top: 200px;
-  .container {
-    margin-bottom: 100px;
-  }
   p.kecil {
     color: #d479ff;
   }
