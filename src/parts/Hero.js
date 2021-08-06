@@ -23,7 +23,7 @@ import Olympic from "assets/images/olympic.png";
 export default function Hero(props) {
   function showDownload() {
     window.scrollTo({
-      top: props.refDownload.current.offsetTop - 30,
+      top: props.refDownload.current.offsetTop - 10,
       behavior: "smooth",
     });
   }

@@ -7,6 +7,7 @@ import Banner from "parts/Banner";
 
 import landingPage from "../json/landingPage.json";
 import Download from "parts/Download";
+import Footer from "parts/Footer";
 
 export default class LandingPage extends Component {
   constructor(props) {
@@ -22,6 +23,7 @@ export default class LandingPage extends Component {
         <Advantage data={landingPage.advantage} />
         <Banner />
         <Download refDownload={this.refDownload} />
+        <Footer />
       </React.Fragment>
     );
   }

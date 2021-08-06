@@ -1,5 +1,5 @@
 @import "container-grid";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
 
 @import "functions";
 @import "variables";
@@ -205,7 +205,8 @@ header {
   }
 }
 
-.container.feature {
+//banner section
+.container.banner {
   margin-top: 200px;
 
   .tp {
@@ -255,5 +256,57 @@ div.non-container {
     background: none;
     border: none;
     padding: 0 0;
+  }
+}
+
+//footer
+footer {
+  padding-top: 50px;
+
+  .brand-tagline {
+    margin-top: 8px;
+    color: $gray-500;
+    font-weight: 300;
+  }
+
+  h5 {
+    color: $white;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    background: none;
+
+    a,
+    span {
+      color: $gray-100;
+      font-weight: 300;
+    }
+    a {
+      @include hover-focus {
+        color: $gray-300;
+      }
+    }
+  }
+
+  .copyrights {
+    font-size: 14px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: $gray-100;
+  }
+
+  .sosmed {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: $gray-100;
+    img {
+      margin-left: 15px;
+    }
   }
 }

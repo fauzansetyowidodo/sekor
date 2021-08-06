@@ -8,7 +8,7 @@ import Feature5 from "assets/images/feature5.png";
 
 export default function Banner() {
   return (
-    <section className="container feature">
+    <section className="container banner">
       <div className="row tp">
         <div className="col-sm lg" style={{ marginLeft: 50 }}>
           <img src={Feature1} alt="" className="" />

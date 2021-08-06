@@ -9,8 +9,8 @@ import Mockup2 from "assets/images/download-mockup2.png";
 
 export default function Download(props) {
   return (
-    <div className="row non-container">
-      <section className="container download" ref={props.refDownload}>
+    <div className="row non-container" ref={props.refDownload}>
+      <section className="container download">
         <div className="row">
           <div className="col-sm-5">
             <h1>
