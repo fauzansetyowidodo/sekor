@@ -114,10 +114,18 @@ export default function Footer() {
             Copyright 2021 • All rights reserved • Sekor
           </div>
           <div className="col-sm-6 sosmed text-right">
-            <img src={Ig} alt="ig" />
-            <img src={Wp} alt="wikped" />
-            <img src={Tw} alt="twitter" />
-            <img src={Yt} alt="youtube" />
+            <Button type="link" href="/ig" className="button">
+              <img src={Ig} alt="ig" />
+            </Button>
+            <Button type="link" href="/wikped" className="button">
+              <img src={Wp} alt="wikped" />
+            </Button>
+            <Button type="link" href="/twitter" className="button">
+              <img src={Tw} alt="twitter" />
+            </Button>
+            <Button type="link" href="/youtube" className="button">
+              <img src={Yt} alt="youtube" />
+            </Button>
           </div>
         </div>
       </div>

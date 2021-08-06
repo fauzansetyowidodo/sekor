@@ -149,7 +149,7 @@ header {
     }
 
     .mockup {
-      width: 330px;
+      width: 340px;
     }
   }
 
@@ -233,12 +233,34 @@ header {
   }
 }
 
+//Feature
+.container.feature {
+  margin-top: 200px;
+  .container {
+    margin-bottom: 100px;
+  }
+  p.kecil {
+    color: #d479ff;
+  }
+  p.desc {
+    margin-top: 40px;
+    padding-right: 40px;
+    color: $white;
+    font-weight: 300;
+  }
+  h1 {
+    margin-top: 20px;
+    color: $white;
+  }
+}
+
+//download
 div.non-container {
   height: 450px;
   width: auto;
   margin: auto;
   background: linear-gradient(90.07deg, #4136f1 0.06%, #8743ff 98.79%);
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 100px;
 
   h1 {
@@ -262,12 +284,6 @@ div.non-container {
 //footer
 footer {
   padding-top: 50px;
-
-  .brand-tagline {
-    margin-top: 8px;
-    color: $gray-500;
-    font-weight: 300;
-  }
 
   h5 {
     color: $white;
@@ -303,9 +319,10 @@ footer {
   .sosmed {
     margin-top: 100px;
     margin-bottom: 50px;
-    font-weight: 300;
-    color: $gray-100;
-    img {
+
+    .button {
+      background: none;
+      border: 0;
       margin-left: 15px;
     }
   }

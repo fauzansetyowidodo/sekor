@@ -42,7 +42,7 @@ export default function Hero(props) {
         </div>
         <div className="row col-sm-12 mb-4">
           <Button className="btn" isPrimary type="link" onClick={showDownload}>
-            Download now <img className="img" src={Apple} alt="Icon Apple" />
+            Download now
           </Button>
         </div>
       </div>
